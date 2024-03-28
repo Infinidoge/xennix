@@ -7,6 +7,15 @@ The benefit of this would be that the priviledged domain could be setup and mana
 Nixpkgs already has some infrastructure for doing this, however it is severely out of date, not supporting UEFI.
 Additionally, XenNix has the goal of creating a full configured 'base' distribution, making dom0 minimal and secure by default instead of including unnecessary packages.
 
+## Motivation
+
+The idea for this project arose after I had bought a cheap rack server from Purdue Surplus (an HPE ProLiant DL360 Gen 9), and was trying to figure out how I wanted to set it up.
+I initially set it up with XCP-ng on a drive borrowed from a friend, to learn how to set it up and use it.
+To my frustration, XCP-ng was quite limited in how it let you setup your disks, particularly the boot disks.
+I wanted to use a ZFS zraid across 3 drives for my boot disk, but the best XCP-ng supported was a 2-drive madam mirror, leaving 1 disk by itself.
+Realizing that Xen distributions were just built on top of a normal Linux distribution, I figured that I could try and use NixOS as dom0, but was disappointed in how out-of-date the infrastructure was in Nixpkgs.
+That lead to this project, and its goals, which are mainly what I want out of a Xen distribution for my own purposes.
+
 ## Goals
 
 ### Primary
