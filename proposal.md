@@ -1,8 +1,6 @@
 # XenNix: A NixOS-based Xen Hypervisor distribution
 
-## [GitHub](https://github.com/Infinidoge/xennix)
-
-### Length: Medium (175 hours), Rating: Medium (Subject to debate)
+### [GitHub](https://github.com/Infinidoge/xennix), Length: Medium (175 hours), Rating: Medium (Subject to debate)
 
 XenNix aims to be a distribution of the Xen Hypervisor, similar to XenServer and XCP-ng, with NixOS as dom0 instead of CentOS or other distributions.
 The benefit of this would be that the priviledged domain could be setup and managed declaratively and reproducibly, allowing for full knowledge and transparency of how dom0 is configured and the ability to reproduce it later.
