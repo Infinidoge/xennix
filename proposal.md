@@ -83,6 +83,10 @@ Additionally, XenNix has the goal of creating a full configured 'base' distribut
   - [Architecture](https://www.qubes-os.org/doc/architecture/)
 - [Nekroze/vms.nix](https://github.com/Nekroze/vms.nix)
 
+## Potential Mentors
+
+- None yet
+
 # Personal Information
 
 ## Contact Info
