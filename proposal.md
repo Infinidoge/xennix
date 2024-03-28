@@ -18,7 +18,7 @@ Additionally, XenNix has the goal of creating a full configured 'base' distribut
   - `qemu_xen`
   - `xenPackages` (`xen` and `light`/`slim`/`full` variants)
   - `xe-guest-utilities`
-  - Xen-related `ocamlPackages`
+  - Xen-related `ocamlPackages`\
     (`mirage-xen`, `netchannel`, `vchan`, `xenstore`, `xenstore-tool`, `xenstore_transport`)
 - Update and improve the Xen dom0 handling in Nixpkgs
   - Support UEFI
@@ -89,8 +89,8 @@ Additionally, XenNix has the goal of creating a full configured 'base' distribut
 
 - Name: Infinidoge, [redacted in public draft]
 - Phone: `[redacted in public draft]`
-- Email: `[redacted in public draft]`, `infinidoge@inx.moe`
-  (Any email @inx.moe will reach to me)
+- Email: `[redacted in public draft]`, `infinidoge@inx.moe`\
+  (Any email @inx.moe will reach to me)\
   Prefer the former for personal/work matters, prefer the latter for code, etc. matters.
 - Matrix: `@infinidoge@matrix.org`
 - Website: https://inx.moe
