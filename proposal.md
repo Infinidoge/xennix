@@ -135,5 +135,5 @@ This project was cool enough to land a meeting with the department head to show 
 
 ## Additional Notes
 
-This is a project that I have been thinking about for quite a while, and I am personally interested in doing it regardless of if it is a Google Summer of Code project or not.
-I hope it will be a GSoC project, since it will give me the opportunity to both have a mentor to guide me and be a good learning experience in dedicating myself to open source development.
+This is a project that I have been thinking about for a while now, and I am personally interested in working on it regardless of if it is a Google Summer of Code project or not.
+That said, I hope it will be a GSoC project, since that would give me the opportunity to both have a mentor to guide me and be a good learning experience in dedicating myself to open source development.
